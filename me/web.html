@@ -6,11 +6,13 @@
   <title>讓剩食找到新主人，用科技連結善意 - RERICE 惜食共享平台</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   <link rel="stylesheet" href="CSS/style.css">
+  <link rel="icon" href="./Imgs/logo_black.png">
 </head>
 <body>
   <!-- Header Navigation -->
-  <header class="header">
+  <header>
     <nav class="nav-container">
+      <input type="checkbox" id="menu-control" class="menu-control">
       <div class="brand-logo">
         <div class="logo">
           <div class="brand-icon">
@@ -19,6 +21,11 @@
           <span class="logo-text">RERICE</span>
         </div>
       </div>
+      <label for="menu-control" class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
       <ul class="nav-list">
         <li><a href="#features">功能特色</a></li>
         <li><a href="#how">如何運作</a></li>
@@ -30,7 +37,7 @@
 
   <main>
     <!-- Hero Section -->
-    <section class="hero">
+    <section id="hero">
       <div class="hero-bg">
         <img src="./Imgs/Hero卡片1.jpg" alt="Hero Background">
       </div>
@@ -68,7 +75,7 @@
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="features">
+    <section id="features">
       <div class="section-header">
         <h2 class="section-title bg-yellow">功能特色</h2>
         <p class="section-subtitle">完整的功能設計，讓惜食共享變得簡單又有趣</p>
@@ -108,7 +115,7 @@
     </section>
 
     <!-- How It Works Section -->
-    <section id="how" class="how-it-works">
+    <section id="how">
       <div class="section-header">
         <h2 class="section-title bg-orange">如何運作</h2>
         <p class="section-subtitle">四個簡單步驟，開始您的惜食之旅</p>
@@ -196,7 +203,7 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section class="testimonials">
+    <section id="testimonials">
       <div class="section-header">
         <h2 class="section-title bg-yellow">用戶好評</h2>
         <p class="section-subtitle">來自真實用戶的分享與推薦</p>
@@ -239,7 +246,7 @@
     </section>
 
     <!-- Download Section -->
-    <section id="download" class="download">
+    <section id="download">
       <div class="download-container">
         <div class="download-logo">
           <img src="./Imgs/logo_black.png" alt="RERICE">
@@ -285,7 +292,7 @@
   </main>
 
   <!-- Footer -->
-  <footer class="footer">
+  <footer id="footer">
     <div class="footer-content">
       <div class="footer-section">
         <div class="footer-logo">
@@ -329,7 +336,8 @@
             <i class="fa-regular fa-envelope"></i>support@rerice.com</div>
           <div>
             <i class="fa-solid fa-phone"></i>0800-123-456</div>
-          <div><i class="fa-solid fa-location-dot"></i>台北市信義區信義路五段7號</div>
+          <div>
+            <i class="fa-solid fa-location-dot"></i>台北市信義區信義路五段7號</div>
         </div>
       </div>
     </div>
